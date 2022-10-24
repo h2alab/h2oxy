@@ -8,11 +8,11 @@ export const nav = [
 		slug: '/blog',
 	},
 	{
-		title: 'About',
+		title: 'Sobre',
 		slug: '/company/about',
 	},
 	{
-		title: 'Contact',
+		title: 'Contato',
 		slug: '/company/contact',
 	},
 ];

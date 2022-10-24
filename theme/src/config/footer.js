@@ -1,23 +1,13 @@
 export const footerSocials = [
   {
     name: 'Twitter',
-    url: 'https://twitter.com/littlesticksdev',
+    url: 'https://twitter.com/',
     icon: "mdi:twitter",
   },
   {
     name: 'Youtube',
-    url: 'https://youtube.com/c/LittleSticks',
+    url: 'https://youtube.com/c/',
     icon: "mdi:youtube",
-  },
-  {
-    name: 'Github',
-    url: 'https://github.com/littlesticks',
-    icon: "mdi:github",
-  },
-  {
-    name: 'Discord',
-    url: 'https://littlesticks.dev/discord',
-    icon: "ic:baseline-discord",
   },
 ]
 
@@ -26,11 +16,11 @@ export const footerLists = [
 		title: 'Landing Pages',
 		items: [
 			{
-				title: 'Landing Page 1',
+				title: 'Principais vantagens',
 				slug: '/landing-pages/landing-1',
 			},
 			{
-				title: 'Landing Page 2',
+				title: 'Marco legal do saneamento básico',
 				slug: '/landing-pages/landing-2',
 			},
       // {
@@ -40,10 +30,10 @@ export const footerLists = [
 		],
 	},
 	{
-		title: 'Company',
+		title: 'Empresa',
 		items: [
 			{
-				title: 'About',
+				title: 'Sobre',
 				slug: '/company/about',
 			},
 			{
@@ -51,7 +41,7 @@ export const footerLists = [
 				slug: '/blog',
 			},
 			{
-				title: 'Contact',
+				title: 'Contato',
 				slug: '/company/contact',
 			},
 		],

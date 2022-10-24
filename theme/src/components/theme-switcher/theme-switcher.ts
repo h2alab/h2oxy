@@ -91,7 +91,7 @@ export class ThemeSwitcher extends LitElement {
 		if (localStorageTheme !== null) {
 			this._setTheme(localStorageTheme);
 		} else {
-      this._setTheme('default');
+      this._setTheme('ocean');
     }
 	}
 
