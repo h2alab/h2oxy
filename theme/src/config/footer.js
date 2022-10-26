@@ -9,11 +9,16 @@ export const footerSocials = [
     url: 'https://youtube.com/c/',
     icon: "mdi:youtube",
   },
+  {
+    name: 'Instagram',
+    url: 'https://instagram.com/',
+    icon: "mdi:instagram",
+  },
 ]
 
 export const footerLists = [
 	{
-		title: 'Landing Pages',
+		title: 'Destaques',
 		items: [
 			{
 				title: 'Principais vantagens',
@@ -44,27 +49,6 @@ export const footerLists = [
 				title: 'Contato',
 				slug: '/company/contact',
 			},
-		],
-	},
-	{
-		title: 'Theme',
-		items: [
-			{
-				title: 'Get Started',
-				slug: '/theme/get-started',
-			},
-			{
-				title: 'Style Guide',
-				slug: '/theme/style-guide',
-			},
-      {
-        title: 'Theme Setup',
-        slug: '/theme/theme-setup',
-      },
-      {
-        title: 'Customizing Odyssey',
-        slug: '/theme/customizing-odyssey',
-      }
 		],
 	},
 ];
