@@ -13,27 +13,27 @@ const themes = [
   {
     name: 'default',
     icon: classicThemeIcon,
-    label: 'Classic',
+    label: 'Preto',
   },
   {
     name: 'dark',
     icon: darkThemeIcon,
-    label: 'Dark',
+    label: 'Escuro',
   },
   {
     name: 'earth',
     icon: earthThemeIcon,
-    label: 'Earth',
+    label: 'Verde',
   },
   {
     name: 'ocean',
     icon: blueThemeIcon,
-    label: 'Ocean',
+    label: 'Azul',
   },
   {
     name: 'sand',
     icon: orangeThemeIcon,
-    label: 'Sand',
+    label: 'Laranja',
   }
 ]
 
