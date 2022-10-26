@@ -11,8 +11,8 @@ import {
 import Layout from '../../layouts/Page.astro';
 
 const seo = {
-	title: 'Astro Odyssey Theme Style Guide',
-	description: 'Get started on how to setup and use this Astro theme.',
+	title: 'Aplicações',
+	description: 'O CleanOxy tem muitas aplicações',
 };
 
 const selectOptions = ['Option 1', 'Option 2', 'Option 3'];
@@ -21,104 +21,66 @@ const selectOptions = ['Option 1', 'Option 2', 'Option 3'];
 <Layout {seo}>
 	<Container>
 		<TextCardSection>
-			<h1>Style Guide</h1>
+			<h1>Aplicações</h1>
 			<p>
-				This is the style guide for the <a
-					href="https://github.com/littlesticksdev/odyssey-theme"
-					target="_blank"
-					rel="noopener noreferrer">Odyssey Theme</a
-				>. Everything you'll find in the theme's starter repo is either a
-				component from the <a
-					href="https://www.npmjs.com/package/@littlesticks/odyssey-theme-components"
-					target="_blank"
-					rel="noopener noreferrer">Odyssey Components Package</a
-				> or built using a component. Not only does this allow for a fully modular
-				setup that receives updates and improvements over time but also allows you
-				to use bits and pieces as needed to create your own unique website with Odyssey
-				as the foundation.
+				O CleanOxy tem aplicações em diversas modalidades
+				
 			</p>
 		</TextCardSection>
 		<section class="style-guide__section">
 			<div class="style-guide__title-container">
-				<h2>Colors</h2>
+				<h2>Principais vantagens</h2>
 			</div>
 			<div>
-				<div class="style-guide-color__card">
-					<h3>Primary</h3>
-				</div>
-				<div class="style-guide-color__card style-guide-color__card--surface-1">
-					<h3>Surface 1</h3>
-				</div>
-				<div class="style-guide-color__card style-guide-color__card--surface-2">
-					<h3>Surface 2</h3>
-				</div>
+			  <li>Oxidação de fenol, sulfeto e cianeto.</li>
+			  <li>Redução de haa5 (ácidos haloacéticos)</li>
+			  <li>Não gera organoclorados</li>
+			  <li>Efetivo contra cryptosporidium e giárdia</li>
+			  <li>Controle de gosto, cor e odor</li>
+			  <li>Não gera THM (Trihalometanos)</li>
+			  <li>Oxidação de matéria orgânica</li>
+			  <li>Desinfecção: eliminação de vírus, bactérias, fungos, algas anaeróbicas e etc</li>
+			  <li>Oxidante sem agressividade</li>
+			  <li>Eliminação de biofilmes</li>
+			  <li>Tratamento da água em torres de resfriamento</li>
 			</div>
 		</section>
 		<section class="style-guide__section">
 			<div class="style-guide__title-container">
-				<h2>Typography</h2>
+				<h2>Tratamento de água</h2>
 			</div>
 			<div>
-				<h1>Heading 1</h1>
-				<h2>Heading 2</h2>
-				<h3>Heading 3</h3>
-				<h4>Heading 4</h4>
-				<h5>Heading 5</h5>
-				<h6>Heading 6</h6>
-				<p>Body Text</p>
 				<blockquote>
-					“Don’t settle for what life gives you; make life better and build
-					something.” — Ashton Kutcher
+Importantes alterações foram introduzidas pelo novo Marco Legal do Saneamento Ambiental nas questões relacionadas a prestação dos serviços públicos essenciais, em especial quanto à oferta de água potável e universalização da coleta e tratamento de esgotos.
+
+A preocupação com o meio ambiente, a saúde pública e a gestão dos resíduos sólidos não se deve dissociar da questão do saneamento e, nesses pontos, o novo Marco representa significativo avanço.
+
+Além da saúde pública, a questão ambiental também está diretamente relacionada com o saneamento básico. A poluição das águas superficiais e subterrâneas ainda é um dano ambiental recorrente no Brasil devido à disposição in natura a céu aberto (lixão) de resíduos sólidos e rejeitos e ao lançamento de esgotos sanitários não tratados nos cursos d’água.
 				</blockquote>
 			</div>
 		</section>
 		<section class="style-guide__section">
 			<div class="style-guide__title-container">
-				<h2>Buttons</h2>
+				<h2>Agronegócio</h2>
 			</div>
 			<div>
-				<p>Button</p>
-				<p>
-					<Button>Button 1</Button>
-				</p>
-				<p>Unelevated Button</p>
-				<p>
-					<Button unelevated>Button 2</Button>
-				</p>
-				<p>Outlined Button</p>
-				<p>
-					<Button outlined>Button 3</Button>
-				</p>
-				<p>Button With Custom Icon</p>
-				<Button customIcon>Launch Page
-          <Fragment slot="icon">
-            <Icon name="ic:baseline-launch" />
-          </Fragment>
-        </Button>
+				<blockquote>
+					Com o passar dos tempos, o mercado ficou cada vez mais exigente quanto aos produtos de origem animal. Processos sendo revistos, produtos com um nível de exigência de alta qualidade e bem estar animal são algumas medidas que foram ganhando evidência no mercado.
+
+Com os níveis de eficácia comprovada, a Oxclor promove uma efetiva sanitização em equipamentos e processos, a fim de garantir e eliminar qualquer risco de contaminação de produtos.
+
+A Oxclor promove a sanitização que anulam os fatores de deterioração da saúde, e cria condições para proteger e garantir a produção com alta confiabilidade.
+				</blockquote>
 			</div>
 		</section>
 		<section class="style-guide__section">
 			<div class="style-guide__title-container">
-				<h2>Forms</h2>
+				<h2>Industrial</h2>
 			</div>
-			<div class="style-guide-forms__container">
-				<div>
-					<h3>Input With Label</h3>
-					<FormInput type="text" label="Name" name="Name" placeholder="John Doe"
-					/>
-				</div>
-				<div>
-					<h3>Input Without Label</h3>
-					<FormInput type="text" name="Name" placeholder="John Doe" />
-				</div>
-				<div>
-					<h3>Select Dropdown</h3>
-					<FormSelect options={selectOptions} />
-				</div>
-				<div>
-					<h3>Textarea</h3>
-					<FormTextarea name="Message" placeholder="Your message here..." />
-				</div>
+			<div>
+				<blockquote>
+					Principais aplicações no segmento industrial, o Oxclor atua no tratamento de águas industriais evitando incrustações orgânicas e na eliminação de biofilmes, tratamento de torres de resfriamento, chillers, sanitização de superfícies, tratamento e limpeza de equipamentos em geral, no sal e na salmora para tratamento de carnes e pescados, na produção de gelo, tratamento de efluentes e resíduos  industriais, entre outras diversas aplicações.
+				</blockquote>
 			</div>
 		</section>
 	</Container>
