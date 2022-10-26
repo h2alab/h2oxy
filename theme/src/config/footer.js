@@ -27,11 +27,7 @@ export const footerLists = [
 			{
 				title: 'Marco legal do saneamento básico',
 				slug: '/landing-pages/landing-2',
-			},
-      // {
-			// 	title: 'Landing Page 3',
-			// 	slug: '/landing-pages/landing-3',
-			// },
+			}
 		],
 	},
 	{

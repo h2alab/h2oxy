@@ -32,7 +32,9 @@ const { seo } = Astro.props as Props;
 		color="var(--theme-on-surface-1)"
 		footerLists={footerLists}
         footerSocials={footerSocials}
-		copyrightName={settings.name}>
+		copyrightName={settings.name}
+        showLittleSticksPlug={settings.showLittleSticksPlug}
+	>
 		<Logo slot="logo" />
 	</Footer>
 </Layout>
